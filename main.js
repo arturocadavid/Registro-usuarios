@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // Ruta para mostrar el formulario de agregar persona
 app.get('/agregar', function(req, res) {
-  res.sendFile(__dirname + '/public/agregar.html');
+  res.sendFile(__dirname + '/public/index.html');
 });
 
 app.set('view engine', 'ejs');
