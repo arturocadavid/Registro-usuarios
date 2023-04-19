@@ -23,6 +23,6 @@ Se creó el archivo index.ejs para renderizar la tabla de personas con la inform
 Ejecución
 Para ejecutar la aplicación, es necesario tener instalado Node.js en el sistema. Luego, abrir una terminal en la carpeta del proyecto y ejecutar el siguiente comando:
 
-   node index.js
+   node main.js
 
 Esto instalará las dependencias necesarias y ejecutará el servidor en el puerto 3000. Luego, abrir un navegador y acceder a la URL http://localhost:3000 para acceder a la página web de registro de personas.
