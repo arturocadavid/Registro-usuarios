@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Registro de Personas</title>
+    <link rel="stylesheet" href="/style2.css">
+</head>
+<body>
+    <h1>REGISTRO DE PERSONAS</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Cédula</th>
+          <th>Teléfono</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% for (let i = 0; i < personas.length; i++) { %>
+          <tr>
+            <td><%= personas[i].nombre %></td>
+            <td><%= personas[i].cedula %></td>
+            <td><%= personas[i].telefono %></td>
+          </tr>
+        <% } %>
+      </tbody>
+    </table>
+</body>
+</html>
