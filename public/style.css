@@ -47,10 +47,12 @@ input[type="text"] {
     margin-bottom: 1em;
     background-color: #2c3946;
     color: #7a8896;
+    text-align: center;
 }
 
 input::placeholder {
-  color: #7a8896;
+    color: #7a8896;
+    text-align: center;
 }
 
 input:active {
