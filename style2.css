@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body {
+    background-color: #1a242e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    font-weight: 900;
+  }
+  
+  table {
+    background-color: #222e3a;
+    border-radius: 24px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #7a8896;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  

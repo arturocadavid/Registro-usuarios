@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">    <script src="/index.js"></script>
+    <script src="/public/script.js"></script>
+    <title>Registro Personas</title>
+</head>
+<body>
+    <h2>REGISTRAR PERSONA</h2>
+    <div>   
+        <form action="http://localhost:3000/personas" method="post">
+            <label for="nombre"></label>
+            <input id="nombre" type="text" name="nombre" required placeholder="Nombre">
+            <div id="nombre-invalid"></div>
+            <br>
+            <label for="cedula"></label>
+            <input id="cedula" type="text" name="cedula" required placeholder="Cédula">
+            <div id="cedula-invalid"></div>
+            <br>
+            <label for="telefono"></label>
+            <input id="telefono" type="text" name="telefono" required placeholder="Teléfono">
+            <div id="telefono-invalid"></div>
+            <br>
+            <button type="submit">Agregar</button>
+        </form>
+    </div>   
+</body>
+</html>
