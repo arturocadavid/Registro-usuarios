@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // Ruta para mostrar el formulario de agregar persona
 app.get('/agregar', function(req, res) {
-  res.sendFile(__dirname + '/public/index.html');
+  res.sendFile(__dirname + './public/index.html');
 });
 
 app.set('view engine', 'ejs');
@@ -44,7 +44,7 @@ app.get('/', function(req, res) {
   fs.readFile('./data/personas.json', 'utf8', function(err, data) {
     if (err) throw err;
     const personas = JSON.parse(data);
-    console.log('La ruta del archivo JSON es:', __dirname + '/data/personas.json');
+    console.log('La ruta del archivo JSON es:', __dirname + './data/personas.json');
     res.render('index', { personas: personas });
   });
 });
